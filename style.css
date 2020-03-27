@@ -628,7 +628,7 @@ position:fixed;
 
 	}
 
-	.p2class{width:100vw;
+	.p2class{width:100%;
 
 	font-size:25px;}
 	.wrap{
@@ -643,11 +643,11 @@ left:0px;
 }
 
 
-.imagelist{
-width:100vw;}
+//.imagelist{
+//width:100vw;}
 
 
-.imagesss{width:100vw;
+.imagesss{width:100%;
 display:block;}
 #main{
 width:100%;}
