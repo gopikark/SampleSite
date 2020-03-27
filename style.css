@@ -621,7 +621,7 @@ position:fixed;
 	#grey{
 	top:95px;
 	font-size:25px;
-	width:100vw;
+	width:100%;
 	}
 	#grey p{
 	font-size:70px;
