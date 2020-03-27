@@ -620,8 +620,16 @@ position:fixed;
 
 	#grey{
 	top:60px;
+	font-size:25px;
+	}
+	#grey p{
+	font-size:70px;
+
 	}
 
+	.p2class{width:100vw;
+
+	font-size:25px;}
 	.wrap{
 		padding-bottom:200px;
 		}
@@ -633,5 +641,19 @@ left:0px;
 
 }
 
+
+.imagelist{
+width:100vw;}
+
+
+.imagesss{width:100vw;
+display:block;}
+#main{
+width:100%;}
+
+.imagesss img{
+width:700px;
+height:700px;
+}
 
 }
