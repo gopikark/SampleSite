@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+	<link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+	<title>
+	Business Essentials
+	</title>
+	 <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+
+
+<body>
+<div class="outs">
+	<div class="wrap">
+	<div id="forms">
+	    		<form action="#" >
+ 			  <div class="containers">
+   		 		<label for="email"><b>Email</b></label>
+    		 		<input type="text" placeholder="Enter Email" name="email" required>
+
+    				 <label for="psw"><b>Password</b></label>
+    				 <input type="password" placeholder="Enter Password" name="psw" required>
+
+     				 <label for="psw-repeat"><b>Repeat Password</b></label>
+     		 		<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+     				 <label>
+      				 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    		 		</label>
+
+    				 <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+					<br>
+     				<div class="clearfix">
+       					<button type="button" class="cancelbtn" onclick="hidesign()">Cancel</button>
+      		       		 <button type="submit" class="signupbtn">Sign Up</button>
+   	                        </div>
+ 	                </div>
+	             </form>
+	        </div>
+		<div class="pricecalc"><span id="close" onclick="hidecalc()">&times</span>
+			<p id="headinggg">PRICE CALCULATOR</p>
+			
+			<hr>
+			<div id="first">
+				<p>#size</p>
+				<div class="cont">
+					<img src="image/3x1.jpg" onclick="showz()">
+					<p class="pppp">&#9989</p>
+					
+				</div>
+				<div class="cont">
+					<img src="image/3x1.jpg" onclick="showo()">
+					<p class="pppp1">&#9989</p>
+				</div>
+				<div class="cont">
+					<img src="image/3x1.jpg" onclick="showt()">
+					<p class="pppp2">&#9989</p>
+				</div>
+				<div class="cont">
+					<img src="image/3x1.jpg" onclick="showth()">
+					<p class="pppp3">&#9989</p>
+				</div>
+				<div class="cont">
+					<img src="image/3x1.jpg" onclick="showf()">
+					<p class="pppp4">&#9989</p>
+				</div>	
+			</div>
+<br>
+			<div id="sec">
+			<p>quantity</p>
+			<br><br>
+			<span class="thiss" onclick="colour(0)">200</span>
+			<span class="thiss" onclick="colour(1)">500</span>
+			<span class="thiss" onclick="colour(2)">1000</span>
+			</div>
+<br><br>
+			<div id="third">
+				<p>sheets</p>
+				<div class="contain">
+					<img src="image/50.jpg" onclick="showpopuptick1()">
+					<p class="ccc">&#9989</p>
+				</div>	
+				<div class="contain">
+					<img src="image/100.jpg" onclick="showpopuptick0()">
+					<p class="ccc1">&#9989</p>
+				</div>
+
+			</div>
+<br>
+			<div id="four">
+				<p>colour</p>
+				<br><br><br>
+				<span id="blu" class="bor" onclick="putborder(0)"></span>
+				<span id="green" class="bor" onclick="putborder(1)"></span>
+				<span id="pink" class="bor" onclick="putborder(2)"></span>
+				<span id="red" class="bor" onclick="putborder(3)"></span>
+
+			</div>
+
+
+
+
+		</div>
+		<div id="main"><span class="popit" onclick="showpop()">&#9776</span>
+			<img src="image/logo.png" class="im">
+			<div class="vl"></div>
+			<div class="sp1">Office printing made easy and hassle-free</div>
+			<div class="vl"></div>
+			<div class="img1">
+				<input type="text" class="myInput"  placeholder="Search" title="Type in a name">
+			</div>
+
+
+
+			<div class="right">
+				<div class="sp2">Enterprise Solutions</div>
+				<div class="contact">
+					<div class="contacts">Contact</div>
+					<div id="num">1234567890/0987654321</div>
+				</div>
+				<div class="cart">
+					<div>Cart</div>
+					<div ><img id="image1" src="image/cart.png"></div>
+				</div>
+				<div class="login">
+					<div onclick="log()">Login</div>
+					<div><img src="image/login.png" id="log"></div>
+				</div>
+	
+			</div>
+
+			<span id="hr"></span>
+		</div>
+		<div class="links">
+			<div id="first"><a href="#" onmouseover="showpop()" onmouseout="hidepop()">All Products</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Visiting Cards</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Office Stationery</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Marketing</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Promotional</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Apparel</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Bags & Boxes</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Labels & Tags</a></div>
+			<div><a href="#" onmouseover="showpop()" onmouseout="hidepop()">Photo Gifts</a></div>
+			<div id="last"> <a href="#" onmouseover="showpop()" onmouseout="hidepop()">Invitation & Greeting Cards</a></div>
+			<span id="hr1"></span>
+		</div>
+
+		<div id="pop1" onmouseover="showpop()" onmouseout="hidepop()">
+			<p  >Visiting Cards</p>
+			<p >Office Stationery</p>
+			<p >Marketing</p>
+			<p >Apparel</p>
+			<p >Bags & Boxes</p>
+			<p >Labels & Tags</p>
+			<p >Photo Gifts</p>
+			<p >Promotional</p>
+			<p >Invitation and Greeting cards</p>
+			<p >Design Services</p>
+			<p >Doctor Products</p>
+	
+		</div>
+		<div id="grey">
+			<span id="fir">printstop</span>
+			<span>></span>
+			<span>produts</span>
+			<span>></span>
+			<span>office stationery</span>
+			<span>></span>	
+			<span>business essentials</span>
+			<p>Business Essentials</p>
+
+		</div>
+
+		<div class="imagelist">
+			<div class="imagesss">
+				<div class="pclass"><p class="head">sticky notes</p></div>
+				<div class="imgclass"><img src="image/sticky.jpg"></div>
+				<div class="p2class"><p>These little sticky notes are add-on accessories which can be custom added to products of your choice. These sticky notes also serve as markers for organizing file and folders.</p></div>
+				<div class="buttwo"><button class="buttontwo" onclick="showcalc()">PRICE CALCULATOR</button></div>
+				<div class="butclass"><button class="button">BUY NOW</button></div>
+			</div>
+
+			<div class="imagesss">
+				<div class="pclass"><p class="head">letterheads</p></div>
+				<div class="imgclass"><img src="image/heads.jpg"></div>
+				<div class="p2class"><p>Highlight your business correspondence. Well-designed letterheads that lend you an aura of supreme professionality.
+Buy 50 Letterheads for Rs. 300
+
+
+</p></div>
+				<div class="buttwo"><button class="buttontwo" onclick="showcalc()">PRICE CALCULATOR</button></div>
+				<div class="butclass"><button class="button">BUY NOW</button></div>
+			</div>
+	
+			<div class="imagesss">
+				<div class="pclass"><p class="head">letterpads</p></div>
+				<div class="imgclass"><img src="image/pads.jpg"></div>
+				<div class="p2class"><p>Scribble in style. Personalized letterpads to build and sustain your brand personality.
+Buy 1 Letterpad for Rs. 49</p></div>
+				<div class="buttwo"><button class="buttontwo" onclick="showcalc()">PRICE CALCULATOR</button></div>
+				<div class="butclass"><button class="button">BUY NOW</button></div>
+			</div>
+	
+			<div class="imagesss">
+				<div class="pclass"><p class="head">preinked stamps</p></div>
+				<div class="imgclass"><img src="image/stamp.jpg"></div>
+				<div class="p2class"><p>Stamp your brand. Pre-inked stamps in the color of your choice which, provide a professional impression.
+Buy 1 Pre-Inked Stamp for Rs. 195</p></div>
+				<div class="buttwo"><button class="buttontwo" onclick="showcalc()">PRICE CALCULATOR</button></div>
+				<div class="butclass"><button class="button">BUY NOW</button></div>
+			</div>
+	<hr id="onehr">
+			<div class="imagesss">
+				<div class="pclass"><p class="head">combo packages</p></div>
+				<div class="imgclass"><img src="image/combo.jpg"></div>
+				<div class="p2class"><p>All in one! Start-up friendly combination packs consisting of complete stationery.
+Stationery Combo for Rs. 1850</p></div>
+				<div class="buttwo"><button class="buttontwo" onclick="showcalc()">PRICE CALCULATOR</button></div>
+				<div class="butclass"><button class="button">BUY NOW</button></div>
+			</div>
+	
+
+
+		</div>
+	</div>
+
+
+
+
+
+<footer id="footer">
+
+	<div id="footdiv">
+		<p>Products</p>
+		<p><a href="#">All products</a></p>
+		<p><a href="#">Visiting Cards</a></p>
+		<p><a href="#">Stationery</a></p>
+		<p><a href="#">Letterheads</a></p>
+		<p><a href="#">Envelopes A4</a></p>
+		<p><a href="#">Envelopes #10</a></p>
+		<p><a href="#">Letterpads</a></p>
+		<p><a href="#">Folfders</a></p>
+		<p><a href="#">Files</a></p>
+		<p><a href="#">Stamps</a></p>
+		<p><a href="#">Notebooks</a></p>
+		<p><a href="#">Flyers</a></p>
+		<p><a href="#">Brouchers</a></p>
+		<p><a href="#">Postres</a></p>
+		<p><a href="#">Banners</a></p>
+		<p><a href="#">Standees</a></p>
+		<p><a href="#">Tent cards</a></p>
+		<p><a href="#">Vouchers</a></p>
+		<p><a href="#">Documents Printing</a></p>
+		<p><a href="#">Certificates</a></p>
+	<br>
+	</div>
+	<div id="footdiv1">
+		<p>More Products</p>
+		<p><a href="#">All products</a></p>
+		<p><a href="#">Visiting Cards</a></p>
+		<p><a href="#">Stationery</a></p>
+		<p><a href="#">Letterheads</a></p>
+		<p><a href="#">Envelopes A4</a></p>
+		<p><a href="#">Envelopes #10</a></p>
+		<p><a href="#">Letterpads</a></p>
+		<p><a href="#">Folfders</a></p>
+		<p><a href="#">Files</a></p>
+		<p><a href="#">Stamps</a></p>
+		<p><a href="#">Notebooks</a></p>
+		<p><a href="#">Flyers</a></p>
+		<p><a href="#">Brouchers</a></p>
+		<p><a href="#">Postres</a></p>
+		
+<br>
+	</div>
+<div id="footdiv2">
+		<p>More Products</p>
+		<p><a href="#">All products</a></p>
+		<p><a href="#">Visiting Cards</a></p>
+		<p><a href="#">Stationery</a></p>
+		<p><a href="#">Letterheads</a></p>
+		<p><a href="#">Envelopes A4</a></p>
+		<p><a href="#">Envelopes #10</a></p>
+		<p><a href="#">Letterpads</a></p>
+		<p><a href="#">Folfders</a></p>
+		<p><a href="#">Files</a></p>
+		<p><a href="#">Stamps</a></p>
+		<p><a href="#">Notebooks</a></p>
+		<p><a href="#">Flyers</a></p>
+		<p><a href="#">Brouchers</a></p>
+		<p><a href="#">Postres</a></p>
+		
+<br>
+</div>
+<div id="footdiv3">
+		<p>More Products</p>
+		<p><a href="#">All products</a></p>
+		<p><a href="#">Visiting Cards</a></p>
+		<p><a href="#">Stationery</a></p>
+		<p><a href="#">Letterheads</a></p>
+		<p><a href="#">Envelopes A4</a></p>
+		<p><a href="#">Envelopes #10</a></p>
+		<p><a href="#">Letterpads</a></p>
+		<p><a href="#">Folfders</a></p>
+		<p><a href="#">Files</a></p>
+		<p><a href="#">Stamps</a></p>
+		<p><a href="#">Notebooks</a></p>
+		<p><a href="#">Flyers</a></p>
+		<p><a href="#">Brouchers</a><F/p>
+		<p><a href="#">Postres</a></p>
+		
+<br>
+</div>
+<div class="vll"></div>
+<div class="soci">
+<p> Follow us on</p>
+<br>
+<div><img src="image/blog.png" class="icocla">
+<img src="image/blog.png" class="icocla"><img src="image/blog.png" class="icocla"></div>
+<div>
+<img src="image/blog.png" class="icocla1"><img src="image/blog.png" class="icocla1"><img src="image/blog.png" class="icocla1"></div>
+
+
+</div>
+<br>
+<hr>
+<br>
+</footer>
+</div>
+<script>
+	hidecalc();
+	function hidesign()
+	{
+		document.getElementById("forms").style.display="none";
+
+		document.getElementById("main").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("links");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		document.getElementById("grey").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("imagelist");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		document.getElementById("footdiv").style.filter="blur(0px)";
+		document.getElementById("footdiv1").style.filter="blur(0px)";
+		document.getElementById("footdiv2").style.filter="blur(0px)";
+		document.getElementById("footdiv3").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("soci");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		var v=document.getElementsByClassName("vll");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+	}
+	function log()
+	{
+		document.getElementById("forms").style.display="block";
+		document.getElementById("main").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("links");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		document.getElementById("grey").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("imagelist");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		document.getElementById("footdiv").style.filter="blur(10px)";
+		document.getElementById("footdiv1").style.filter="blur(10px)";
+		document.getElementById("footdiv2").style.filter="blur(10px)";
+		document.getElementById("footdiv3").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("soci");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		var v=document.getElementsByClassName("vll");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+	}
+	function putborder(n)
+	{	var i;
+		var p=document.getElementsByClassName("bor");
+		for(i=0;i<p.length;++i)
+		{
+			p[i].style.border="none";
+		}
+		p[n].style.border="4px solid black";
+		
+	}
+	function showpopuptick1()
+	{
+		var a=document.getElementsByClassName("ccc");
+		var b=document.getElementsByClassName("ccc1");
+		a[0].style.display="block";
+		b[0].style.display="none";
+	}
+	function showpopuptick0()
+	{
+		var a=document.getElementsByClassName("ccc");
+		var b=document.getElementsByClassName("ccc1");
+		a[0].style.display="none";
+		b[0].style.display="block";
+	}
+	function colour(n)
+	{
+		var i;
+		var p=document.getElementsByClassName("thiss");
+		for(i=0;i<p.length;++i)
+		{
+			p[i].style.backgroundColor="#ddd";
+		}
+		p[n].style.backgroundColor="red";
+	}
+	function showz()
+	{
+		var a=document.getElementsByClassName("pppp");
+		var b=document.getElementsByClassName("pppp1");
+		var c=document.getElementsByClassName("pppp2");
+		var d=document.getElementsByClassName("pppp3");
+		var e=document.getElementsByClassName("pppp4");
+		a[0].style.display="block";
+		b[0].style.display="none";
+		c[0].style.display="none";
+		d[0].style.display="none";
+		e[0].style.display="none";
+	}
+	function showo()
+	{
+		var a=document.getElementsByClassName("pppp");
+		var b=document.getElementsByClassName("pppp1");
+		var c=document.getElementsByClassName("pppp2");
+		var d=document.getElementsByClassName("pppp3");
+		var e=document.getElementsByClassName("pppp4");
+		a[0].style.display="none";
+		b[0].style.display="block";
+		c[0].style.display="none";
+		d[0].style.display="none";
+		e[0].style.display="none";
+	}
+	function showt()
+	{
+		var a=document.getElementsByClassName("pppp");
+		var b=document.getElementsByClassName("pppp1");
+		var c=document.getElementsByClassName("pppp2");
+		var d=document.getElementsByClassName("pppp3");
+		var e=document.getElementsByClassName("pppp4");
+		a[0].style.display="none";
+		b[0].style.display="none";
+		c[0].style.display="block";
+		d[0].style.display="none";
+		e[0].style.display="none";
+	}
+		function showth()
+	{
+		var a=document.getElementsByClassName("pppp");
+		var b=document.getElementsByClassName("pppp1");
+		var c=document.getElementsByClassName("pppp2");
+		var d=document.getElementsByClassName("pppp3");
+		var e=document.getElementsByClassName("pppp4");
+		a[0].style.display="none";
+		b[0].style.display="none";
+		c[0].style.display="none";
+		d[0].style.display="block";
+		e[0].style.display="none";
+	}
+		function showf()
+	{
+		var a=document.getElementsByClassName("pppp");
+		var b=document.getElementsByClassName("pppp1");
+		var c=document.getElementsByClassName("pppp2");
+		var d=document.getElementsByClassName("pppp3");
+		var e=document.getElementsByClassName("pppp4");
+		a[0].style.display="none";
+		b[0].style.display="none";
+		c[0].style.display="none";
+		d[0].style.display="none";
+		e[0].style.display="block";
+	}
+	function showcalc()
+	{
+		var i=document.getElementsByClassName("pricecalc");
+		i[0].style.display="block";
+		document.getElementById("main").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("links");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		document.getElementById("grey").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("imagelist");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		document.getElementById("footdiv").style.filter="blur(10px)";
+		document.getElementById("footdiv1").style.filter="blur(10px)";
+		document.getElementById("footdiv2").style.filter="blur(10px)";
+		document.getElementById("footdiv3").style.filter="blur(10px)";
+		var v=document.getElementsByClassName("soci");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+		var v=document.getElementsByClassName("vll");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(10px)";
+		}
+	}
+	function hidecalc()
+	{	
+		var i=document.getElementsByClassName("pricecalc");
+		i[0].style.display="none";
+		document.getElementById("main").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("links");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		document.getElementById("grey").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("imagelist");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		document.getElementById("footdiv").style.filter="blur(0px)";
+		document.getElementById("footdiv1").style.filter="blur(0px)";
+		document.getElementById("footdiv2").style.filter="blur(0px)";
+		document.getElementById("footdiv3").style.filter="blur(0px)";
+		var v=document.getElementsByClassName("soci");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+		var v=document.getElementsByClassName("vll");
+		for(var i=0;i<v.length;++i)
+		{
+			v[i].style.filter="blur(0px)";
+		}
+	}
+	function showpop()
+	{
+		document.getElementById("pop1").style.display="block";
+	}
+
+	function hidepop()
+	{
+		document.getElementById("pop1").style.display="none";
+	}
+s
+
+</script>
+</body>
+
+</html>
