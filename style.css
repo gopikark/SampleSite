@@ -467,13 +467,19 @@ display:inline-block;
 //margin-right:20px;
 width:40px;
 height:40px;}
+
+
+
+
+
 .pricecalc{
 display:none;
+padding:20px;
 position:fixed;				
 left:30%;
 z-index:3;
 //top:30%;
-min-height:200vh;
+height:700px;
 display:inline-block;
 background-color:white;
 border:2px solid black;
@@ -495,24 +501,24 @@ cursor:pointer;
 margin-right:10px;
 font-size:23px;
 }
-.cont{display:inline-block;
+.cont{display:inline-block;s
 //margin-right:5px;
 //margin-left:5px;}
 .pricecalc .pppp{display:none;
-position:absolute;
+//position:absolute;
 top:60px;
 left:8px;}
 
 .pricecalc .pppp1{display:none;
-position:absolute;
+//position:absolute;
 top:60px;
 left:112px;}
 .pricecalc .pppp2{display:none;
-position:absolute;
+//position:absolute;
 top:60px;
 left:216px;}
 .pricecalc .pppp3{
-position:absolute;display:none;
+//position:absolute;display:none;
 top:60px;
 left:320px;}
 .pricecalc .pppp4{
@@ -553,13 +559,13 @@ margin-top:30px;
 margin-left:100px;}
 
 .pricecalc .ccc{
-position:absolute;
+//position:absolute;
 display:none;
 top:376px;
 left:108px;}
 
 .pricecalc .ccc1{
-position:absolute;
+//position:absolute;
 display:none;
 top:376px;
 left:311px;}
@@ -638,8 +644,8 @@ position:fixed;
 	margin-left:20px;}
 
 .pricecalc{
-left:0px;
-
+left:25%;
+//width:100%;
 }
 
 
