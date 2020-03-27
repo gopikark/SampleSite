@@ -57,7 +57,7 @@ position:relative;
 #main{
 //position:relative;
 position:fixed;
-width:100vw;
+width:100%;
 z-index:2;
 background-color:white;
 }
