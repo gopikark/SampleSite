@@ -600,7 +600,7 @@ font-size:30px;}
 		display:none;
 		}
 	
-	.popit{
+	.popit{font-size:70px;
 		display:inline;
 		cursor:pointer;
 		}
@@ -654,6 +654,18 @@ width:100%;}
 .imagesss img{
 width:700px;
 height:700px;
+}
+
+.im{
+width:70px;
+height:70px;
+margin-left:20%;
+}
+
+.img1{
+top:15%;
+margin-left:30%;
+margin-right:0;
 }
 
 }
